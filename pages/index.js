@@ -5,7 +5,7 @@ let searchString = '';
 let poems;
 
 const fetchPoems = async () => {
-    poems = await fetch('https://raw.githubusercontent.com/konstantinovmax/test-live-search/main/data/classic_poems.json')
+    poems = await fetch('https://raw.githubusercontent.com/sberbank-ai/classic-ai/master/data/classic_poems.json')
         .then(res => res.json())
         .catch(err => console.log(err));
 };
