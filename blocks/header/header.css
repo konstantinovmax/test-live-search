@@ -1,0 +1,15 @@
+@import url(./__button/header__button.css);
+@import url(./__input/header__input.css);
+@import url(./__title/header__title.css);
+@import url(./__poems/header__poems.css);
+@import url(./__poems-element/header__poems-element.css);
+@import url(./__poems-author/header__poems-author.css);
+@import url(./__poems-name/header__poems-name.css);
+@import url(./__poems-text/header__poems-text.css);
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
